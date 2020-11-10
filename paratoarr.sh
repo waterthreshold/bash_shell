@@ -96,4 +96,5 @@ do
 done 
 file=DCIM001.jpg
 alert "rename_file="hahat"${file:${#PREFIX}};`echo \"$rename_file\"`" "hahat001.jpg"
+echo C:\\"${pathCURRENT//"/"/"\\"}"
 read
